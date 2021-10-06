@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+form {
+  margin: 50px auto 20px auto;
+  width: 700px;
+}
+
+.required .control-label:after {
+  content:"*";
+  color:red;
+}
+
+.department {
+  margin-right: 5px;
+}
+
+button {
+  margin-right: 5px;
+}
+
+
